@@ -1,0 +1,93 @@
+body {
+  padding-top: 70px;
+}
+.Contacts {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* Grid
+--------------------------------------------*/
+.block-magin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sub-block-magin {
+  margin-left: 10px;
+}
+
+
+
+/*Colors forms*/
+/* Base styles (regardless of theme) */
+
+/*.bs-callout {
+margin: 20px 0;
+padding: 15px 30px 15px 15px;
+border-left: 5px solid #eee;
+}*/.bs-callout {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+}
+/*.bs-callout h4 {
+margin-top: 0;
+}*/
+.bs-callout-info h4 {
+color: #5bc0de;
+margin-top: 0;
+}
+.bs-callout p:last-child {
+margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+background-color: #fff;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+background-color: #fcf2f2;
+border-color: #d9534f;
+}
+.bs-callout-warning {
+background-color: #fefbed;
+border-color: #f0ad4e;
+}
+.bs-callout-info {
+border-left-color: #5bc0de;
+}
+/*.bs-callout-info {
+background-color: #f0f7fd;
+border-color: #5bc0de;
+}*/
